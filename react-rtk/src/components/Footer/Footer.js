@@ -4,7 +4,7 @@ import classes from "./Footer.module.scss";
 function Footer() {
   return (
     <div className={classes.container}>
-      <h1>Footer</h1>
+      <h1 className="text-3xl font-bold underline">Footer</h1>
     </div>
   );
 }
