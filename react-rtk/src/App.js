@@ -8,12 +8,12 @@ function App() {
     <div className="App">
       <Header />
       <NavLink
-        to="/messages"
+        to="/about"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""
         }
       >
-        Messages
+        About
       </NavLink>
       <Footer />
     </div>
