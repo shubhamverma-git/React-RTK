@@ -1,9 +1,12 @@
 import "./App.css";
 import { NavLink } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
 function App() {
   return (
     <div className="App">
-      <h1>HII</h1>
+      <Header />
       <NavLink
         to="/messages"
         className={({ isActive, isPending }) =>
@@ -12,7 +15,7 @@ function App() {
       >
         Messages
       </NavLink>
-      ;
+      <Footer />
     </div>
   );
 }
